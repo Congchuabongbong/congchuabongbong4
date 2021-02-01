@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Client Testimonial Section using Html CSS & Swiper.js</title>
+  </head>
+  <body>
+    <section>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img
+                height="20%"
+                width="20%"
+                src="img/right-quote.png"
+                alt=""
+                class="quocte"
+              />
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                  voluptas enim consequatur vel quis illum veniam? Culpa, ab
+                  voluptas impedit eaque illum delectus ducimus reiciendis,
+                  architecto unde necessitatibus quod ipsam?
+                </p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="img/user1.JPG" alt="" />
+                    <h3>Someone Famous<br/><span>Creative Designer</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img
+                height="20%"
+                width="20%"
+                src="img/right-quote.png"
+                alt=""
+                class="quocte"
+              />
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                  voluptas enim consequatur vel quis illum veniam? Culpa, ab
+                  voluptas impedit eaque illum delectus ducimus reiciendis,
+                  architecto unde necessitatibus quod ipsam?
+                </p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="img/user2.jpg" alt="" />
+                    <h3>Someone Famous<br/><span>Creative Designer</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img
+                height="20%"
+                width="20%"
+                src="img/right-quote.png"
+                alt=""
+                class="quocte"
+              />
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                  voluptas enim consequatur vel quis illum veniam? Culpa, ab
+                  voluptas impedit eaque illum delectus ducimus reiciendis,
+                  architecto unde necessitatibus quod ipsam?
+                </p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="img/user3.jpg" alt="" />
+                    <h3> Someone Famous<br/><span>Creative Designer</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2,
+          slideShadows: true,
+        },
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
